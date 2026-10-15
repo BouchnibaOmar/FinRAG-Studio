@@ -1,0 +1,3494 @@
+{
+  "B_reference_predictions_sha256": "5a025fdf2336b4d15044a5f0d3d58472ff4381d9d892ecff2289497e70614cc5",
+  "changes": {
+    "dense": {
+      "recovered_control_failures": [],
+      "regressions_against_control": [
+        "finrag_v1_bnp_05",
+        "finrag_v1_bnp_12",
+        "finrag_v1_bnp_14",
+        "finrag_v1_sg_01",
+        "finrag_v1_sg_03",
+        "finrag_v1_sg_06",
+        "finrag_v1_sg_08",
+        "finrag_v1_sg_09"
+      ]
+    },
+    "hybrid": {
+      "recovered_control_failures": [],
+      "regressions_against_control": [
+        "finrag_v1_bnp_05",
+        "finrag_v1_bnp_12",
+        "finrag_v1_sg_01",
+        "finrag_v1_sg_06",
+        "finrag_v1_sg_08",
+        "finrag_v1_sg_09"
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_01"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_02"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_03"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.5,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.5,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_05"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_06"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_07"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_08"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 7,
+            "duplicate_page_slots_top10": 3,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_10"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_12"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.16666666666666666,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.2,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 1.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_bnp_14"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_01"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_03"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_05"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_07"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_08"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_09"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 7,
+            "duplicate_page_slots_top10": 3,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 6,
+            "duplicate_page_slots_top10": 4,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_10"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_11"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.14285714285714285,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.125,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_casa_13"
+    },
+    {
+      "answerable": false,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        }
+      },
+      "question_id": "finrag_v1_casa_15"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.2,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.25,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.1111111111111111,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_01"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 1.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 1.0,
+            "page_recall@1": 1.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 1.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 1.0,
+            "page_recall@1": 1.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 1.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 1.0,
+            "page_recall@1": 1.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 1.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 1.0,
+            "page_recall@1": 1.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_02"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.125,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 1.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 1.0,
+            "page_recall@1": 1.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_03"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.5,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.3333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_06"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.5,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 1.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.5,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 1.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.16666666666666666,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_08"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.2,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 1.0,
+            "exact_evidence_excerpt_coverage@5": 1.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 1.0,
+            "hit@3": 0.0,
+            "hit@5": 1.0,
+            "mrr@10": 0.25,
+            "page_recall@1": 0.0,
+            "page_recall@10": 1.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 1.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_09"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 7,
+            "duplicate_page_slots_top10": 3,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_10"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 7,
+            "duplicate_page_slots_top10": 3,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_12"
+    },
+    {
+      "answerable": true,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 7,
+            "duplicate_page_slots_top10": 3,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 7,
+            "duplicate_page_slots_top10": 3,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 9,
+            "duplicate_page_slots_top10": 1,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 8,
+            "duplicate_page_slots_top10": 2,
+            "exact_evidence_excerpt_coverage@10": 0.0,
+            "exact_evidence_excerpt_coverage@5": 0.0
+          },
+          "metrics": {
+            "document_accuracy@1": 0.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          }
+        }
+      },
+      "question_id": "finrag_v1_sg_14"
+    },
+    {
+      "answerable": false,
+      "methods": {
+        "B_reference": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        },
+        "bm25": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        },
+        "dense": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        },
+        "hybrid": {
+          "diagnostic": {
+            "distinct_pages_top10": 10,
+            "duplicate_page_slots_top10": 0,
+            "exact_evidence_excerpt_coverage@10": null,
+            "exact_evidence_excerpt_coverage@5": null
+          },
+          "metrics": null
+        }
+      },
+      "question_id": "finrag_v1_sg_15"
+    }
+  ],
+  "evidence_diagnostic": "Exact excerpt containment after ranking; not answer accuracy",
+  "fingerprint": {
+    "effective_limit": 512,
+    "encoding": {
+      "batch_size": 4,
+      "deterministic_algorithms": true,
+      "device": "cuda",
+      "precision": "float32",
+      "seed": 20261013,
+      "threads": 4,
+      "versions": {
+        "faiss-cpu": "1.10.0",
+        "numpy": "1.26.4",
+        "safetensors": "0.5.3",
+        "tokenizers": "0.21.4",
+        "torch": "2.7.1+cu118",
+        "transformers": "4.51.3"
+      }
+    },
+    "model": {
+      "dimensions": 384,
+      "files": {
+        "config.json": "69137736cab8b8903a07fe8afaafdda25aac55415a12a55d1bffa9f581abf959",
+        "model.safetensors": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+        "sentence_bert_config.json": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529",
+        "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+        "special_tokens_map.json": "d05497f1da52c5e09554c0cd874037a083e1dc1b9cfd48034d1c717f1afc07a7",
+        "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+        "tokenizer_config.json": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+      },
+      "license": "MIT",
+      "maximum_length": 512,
+      "model": "intfloat/multilingual-e5-small",
+      "official_source": "https://huggingface.co/intfloat/multilingual-e5-small/tree/614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+    },
+    "model_chunks_sha256": "9a6595baf9df19d251fb8896492355553747b7b53e5e274c856ba99dc0a4d9d7",
+    "original_B_fingerprints": {
+      "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2": {
+        "chunk_count": 2194,
+        "chunk_manifest_sha256": "850029ff42f118de0e19b796f336d46012b1efd4cc13f2a45ec30a0302c88665",
+        "chunks_sha256": "643918f185410e628440c7d8359c9f1c1575d6ac5b363eee8b1904a694d1d624",
+        "pages_sha256": "02d79dd0115c59e24b04a18d019dbf1714090ca74772fedef8200f2eec26efab",
+        "pdf_sha256": "65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2"
+      },
+      "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54": {
+        "chunk_count": 1969,
+        "chunk_manifest_sha256": "78feb616c8ec221ebf03aedfa549112fa7d884a4e791b3a6a7fbb44d295c4fa2",
+        "chunks_sha256": "8c49424a837e647df8e93cc48e419848321a3c421f7760e28e580d96c978e7cb",
+        "pages_sha256": "5de341c08e57025cd43c0fac962bc03a37dbfd5b3b6397eac9043f6452b89d11",
+        "pdf_sha256": "bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54"
+      },
+      "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2": {
+        "chunk_count": 2978,
+        "chunk_manifest_sha256": "369bf6c33d4ebf41d8a7db3eefb8c22d90111200e11135762838871f5034e539",
+        "chunks_sha256": "d17b00f4dd283b674d854c360b73f79dc4cb46d762c6f44cdfba20aa7ce262bb",
+        "pages_sha256": "152c11e10b91288d9d19932aae01251567460066f7570b7dd9f84cab9a66f6cf",
+        "pdf_sha256": "d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2"
+      }
+    },
+    "original_B_input_sha256": "44b7b9ab8c22dc62c295335635e838155b275a6d2ad2dde95b226e074b040a42",
+    "pooling": "masked-mean-v1",
+    "prefixes": {
+      "passage": "passage: ",
+      "query": "query: "
+    },
+    "protocol_sha256": "6b5a74444c8f2282093337e972d302892e1ab91fd3c15c89f63358943c867de5",
+    "tokenizer_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+  },
+  "groups": {
+    "B_reference": {
+      "category": {
+        "comparative": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.5,
+            "hit@1": 0.0,
+            "hit@10": 0.16666666666666666,
+            "hit@3": 0.16666666666666666,
+            "hit@5": 0.16666666666666666,
+            "mrr@10": 0.05555555555555555,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.16666666666666666,
+            "page_recall@3": 0.16666666666666666,
+            "page_recall@5": 0.16666666666666666
+          },
+          "questions": 6,
+          "unanswerable": 0
+        },
+        "definition_policy": {
+          "answerable": 3,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.6666666666666666,
+            "hit@3": 0.3333333333333333,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.15873015873015872,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.6666666666666666,
+            "page_recall@3": 0.3333333333333333,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 3,
+          "unanswerable": 0
+        },
+        "factual": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.4,
+            "hit@1": 0.1,
+            "hit@10": 0.4,
+            "hit@3": 0.3,
+            "hit@5": 0.4,
+            "mrr@10": 0.2033333333333333,
+            "page_recall@1": 0.1,
+            "page_recall@10": 0.4,
+            "page_recall@3": 0.3,
+            "page_recall@5": 0.4
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "numerical": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.3333333333333333,
+            "hit@1": 0.0,
+            "hit@10": 0.3333333333333333,
+            "hit@3": 0.2222222222222222,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.13333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.3333333333333333,
+            "page_recall@3": 0.2222222222222222,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 9,
+          "unanswerable": 0
+        },
+        "unanswerable": {
+          "answerable": 0,
+          "metrics": {},
+          "questions": 2,
+          "unanswerable": 2
+        }
+      },
+      "company": {
+        "BNP Paribas": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.3,
+            "hit@1": 0.0,
+            "hit@10": 0.3,
+            "hit@3": 0.3,
+            "hit@5": 0.3,
+            "mrr@10": 0.11666666666666665,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.3,
+            "page_recall@3": 0.3,
+            "page_recall@5": 0.3
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "Crédit Agricole S.A.": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.2222222222222222,
+            "hit@1": 0.0,
+            "hit@10": 0.1111111111111111,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.015873015873015872,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.1111111111111111,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 10,
+          "unanswerable": 1
+        },
+        "Société Générale": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.7777777777777778,
+            "hit@1": 0.1111111111111111,
+            "hit@10": 0.6666666666666666,
+            "hit@3": 0.4444444444444444,
+            "hit@5": 0.6666666666666666,
+            "mrr@10": 0.3037037037037037,
+            "page_recall@1": 0.1111111111111111,
+            "page_recall@10": 0.6666666666666666,
+            "page_recall@3": 0.4444444444444444,
+            "page_recall@5": 0.6666666666666666
+          },
+          "questions": 10,
+          "unanswerable": 1
+        }
+      },
+      "language": {
+        "en": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.5,
+            "hit@3": 0.3333333333333333,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.1349206349206349,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.5,
+            "page_recall@3": 0.3333333333333333,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 8,
+          "unanswerable": 2
+        },
+        "fr": {
+          "answerable": 22,
+          "metrics": {
+            "document_accuracy@1": 0.36363636363636365,
+            "hit@1": 0.045454545454545456,
+            "hit@10": 0.3181818181818182,
+            "hit@3": 0.22727272727272727,
+            "hit@5": 0.3181818181818182,
+            "mrr@10": 0.14696969696969697,
+            "page_recall@1": 0.045454545454545456,
+            "page_recall@10": 0.3181818181818182,
+            "page_recall@3": 0.22727272727272727,
+            "page_recall@5": 0.3181818181818182
+          },
+          "questions": 22,
+          "unanswerable": 0
+        }
+      },
+      "overall": {
+        "answerable": 28,
+        "metrics": {
+          "document_accuracy@1": 0.42857142857142855,
+          "hit@1": 0.03571428571428571,
+          "hit@10": 0.35714285714285715,
+          "hit@3": 0.25,
+          "hit@5": 0.32142857142857145,
+          "mrr@10": 0.1443877551020408,
+          "page_recall@1": 0.03571428571428571,
+          "page_recall@10": 0.35714285714285715,
+          "page_recall@3": 0.25,
+          "page_recall@5": 0.32142857142857145
+        },
+        "questions": 30,
+        "unanswerable": 2
+      },
+      "relevance": {
+        "multi_page": {
+          "answerable": 1,
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 1,
+          "unanswerable": 0
+        },
+        "single_page": {
+          "answerable": 27,
+          "metrics": {
+            "document_accuracy@1": 0.4074074074074074,
+            "hit@1": 0.037037037037037035,
+            "hit@10": 0.37037037037037035,
+            "hit@3": 0.25925925925925924,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.14973544973544972,
+            "page_recall@1": 0.037037037037037035,
+            "page_recall@10": 0.37037037037037035,
+            "page_recall@3": 0.25925925925925924,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 27,
+          "unanswerable": 0
+        }
+      }
+    },
+    "bm25": {
+      "category": {
+        "comparative": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.5,
+            "hit@1": 0.0,
+            "hit@10": 0.16666666666666666,
+            "hit@3": 0.16666666666666666,
+            "hit@5": 0.16666666666666666,
+            "mrr@10": 0.05555555555555555,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.16666666666666666,
+            "page_recall@3": 0.16666666666666666,
+            "page_recall@5": 0.16666666666666666
+          },
+          "questions": 6,
+          "unanswerable": 0
+        },
+        "definition_policy": {
+          "answerable": 3,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.6666666666666666,
+            "hit@3": 0.3333333333333333,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.15277777777777776,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.6666666666666666,
+            "page_recall@3": 0.3333333333333333,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 3,
+          "unanswerable": 0
+        },
+        "factual": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.4,
+            "hit@1": 0.1,
+            "hit@10": 0.4,
+            "hit@3": 0.3,
+            "hit@5": 0.4,
+            "mrr@10": 0.20833333333333334,
+            "page_recall@1": 0.1,
+            "page_recall@10": 0.4,
+            "page_recall@3": 0.3,
+            "page_recall@5": 0.4
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "numerical": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.3333333333333333,
+            "hit@1": 0.0,
+            "hit@10": 0.3333333333333333,
+            "hit@3": 0.2222222222222222,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.12037037037037036,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.3333333333333333,
+            "page_recall@3": 0.2222222222222222,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 9,
+          "unanswerable": 0
+        },
+        "unanswerable": {
+          "answerable": 0,
+          "metrics": {},
+          "questions": 2,
+          "unanswerable": 2
+        }
+      },
+      "company": {
+        "BNP Paribas": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.3,
+            "hit@1": 0.0,
+            "hit@10": 0.3,
+            "hit@3": 0.3,
+            "hit@5": 0.3,
+            "mrr@10": 0.11666666666666665,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.3,
+            "page_recall@3": 0.3,
+            "page_recall@5": 0.3
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "Crédit Agricole S.A.": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.2222222222222222,
+            "hit@1": 0.0,
+            "hit@10": 0.1111111111111111,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.013888888888888888,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.1111111111111111,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 10,
+          "unanswerable": 1
+        },
+        "Société Générale": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.7777777777777778,
+            "hit@1": 0.1111111111111111,
+            "hit@10": 0.6666666666666666,
+            "hit@3": 0.4444444444444444,
+            "hit@5": 0.6666666666666666,
+            "mrr@10": 0.2962962962962963,
+            "page_recall@1": 0.1111111111111111,
+            "page_recall@10": 0.6666666666666666,
+            "page_recall@3": 0.4444444444444444,
+            "page_recall@5": 0.6666666666666666
+          },
+          "questions": 10,
+          "unanswerable": 1
+        }
+      },
+      "language": {
+        "en": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.5,
+            "hit@3": 0.3333333333333333,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.13194444444444445,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.5,
+            "page_recall@3": 0.3333333333333333,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 8,
+          "unanswerable": 2
+        },
+        "fr": {
+          "answerable": 22,
+          "metrics": {
+            "document_accuracy@1": 0.36363636363636365,
+            "hit@1": 0.045454545454545456,
+            "hit@10": 0.3181818181818182,
+            "hit@3": 0.22727272727272727,
+            "hit@5": 0.3181818181818182,
+            "mrr@10": 0.14393939393939392,
+            "page_recall@1": 0.045454545454545456,
+            "page_recall@10": 0.3181818181818182,
+            "page_recall@3": 0.22727272727272727,
+            "page_recall@5": 0.3181818181818182
+          },
+          "questions": 22,
+          "unanswerable": 0
+        }
+      },
+      "overall": {
+        "answerable": 28,
+        "metrics": {
+          "document_accuracy@1": 0.42857142857142855,
+          "hit@1": 0.03571428571428571,
+          "hit@10": 0.35714285714285715,
+          "hit@3": 0.25,
+          "hit@5": 0.32142857142857145,
+          "mrr@10": 0.14136904761904762,
+          "page_recall@1": 0.03571428571428571,
+          "page_recall@10": 0.35714285714285715,
+          "page_recall@3": 0.25,
+          "page_recall@5": 0.32142857142857145
+        },
+        "questions": 30,
+        "unanswerable": 2
+      },
+      "relevance": {
+        "multi_page": {
+          "answerable": 1,
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 1,
+          "unanswerable": 0
+        },
+        "single_page": {
+          "answerable": 27,
+          "metrics": {
+            "document_accuracy@1": 0.4074074074074074,
+            "hit@1": 0.037037037037037035,
+            "hit@10": 0.37037037037037035,
+            "hit@3": 0.25925925925925924,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.14660493827160492,
+            "page_recall@1": 0.037037037037037035,
+            "page_recall@10": 0.37037037037037035,
+            "page_recall@3": 0.25925925925925924,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 27,
+          "unanswerable": 0
+        }
+      }
+    },
+    "dense": {
+      "category": {
+        "comparative": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.5,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 6,
+          "unanswerable": 0
+        },
+        "definition_policy": {
+          "answerable": 3,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.3333333333333333,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.05555555555555555,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.3333333333333333,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 3,
+          "unanswerable": 0
+        },
+        "factual": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.6,
+            "hit@1": 0.1,
+            "hit@10": 0.2,
+            "hit@3": 0.1,
+            "hit@5": 0.1,
+            "mrr@10": 0.1125,
+            "page_recall@1": 0.1,
+            "page_recall@10": 0.2,
+            "page_recall@3": 0.1,
+            "page_recall@5": 0.1
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "numerical": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 9,
+          "unanswerable": 0
+        },
+        "unanswerable": {
+          "answerable": 0,
+          "metrics": {},
+          "questions": 2,
+          "unanswerable": 2
+        }
+      },
+      "company": {
+        "BNP Paribas": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.3,
+            "hit@1": 0.0,
+            "hit@10": 0.1,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.016666666666666666,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.1,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "Crédit Agricole S.A.": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.7777777777777778,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 10,
+          "unanswerable": 1
+        },
+        "Société Générale": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.7777777777777778,
+            "hit@1": 0.1111111111111111,
+            "hit@10": 0.2222222222222222,
+            "hit@3": 0.1111111111111111,
+            "hit@5": 0.1111111111111111,
+            "mrr@10": 0.125,
+            "page_recall@1": 0.1111111111111111,
+            "page_recall@10": 0.2222222222222222,
+            "page_recall@3": 0.1111111111111111,
+            "page_recall@5": 0.1111111111111111
+          },
+          "questions": 10,
+          "unanswerable": 1
+        }
+      },
+      "language": {
+        "en": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.16666666666666666,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.027777777777777776,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.16666666666666666,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 8,
+          "unanswerable": 2
+        },
+        "fr": {
+          "answerable": 22,
+          "metrics": {
+            "document_accuracy@1": 0.5909090909090909,
+            "hit@1": 0.045454545454545456,
+            "hit@10": 0.09090909090909091,
+            "hit@3": 0.045454545454545456,
+            "hit@5": 0.045454545454545456,
+            "mrr@10": 0.05113636363636364,
+            "page_recall@1": 0.045454545454545456,
+            "page_recall@10": 0.09090909090909091,
+            "page_recall@3": 0.045454545454545456,
+            "page_recall@5": 0.045454545454545456
+          },
+          "questions": 22,
+          "unanswerable": 0
+        }
+      },
+      "overall": {
+        "answerable": 28,
+        "metrics": {
+          "document_accuracy@1": 0.6071428571428571,
+          "hit@1": 0.03571428571428571,
+          "hit@10": 0.10714285714285714,
+          "hit@3": 0.03571428571428571,
+          "hit@5": 0.03571428571428571,
+          "mrr@10": 0.046130952380952384,
+          "page_recall@1": 0.03571428571428571,
+          "page_recall@10": 0.10714285714285714,
+          "page_recall@3": 0.03571428571428571,
+          "page_recall@5": 0.03571428571428571
+        },
+        "questions": 30,
+        "unanswerable": 2
+      },
+      "relevance": {
+        "multi_page": {
+          "answerable": 1,
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 1,
+          "unanswerable": 0
+        },
+        "single_page": {
+          "answerable": 27,
+          "metrics": {
+            "document_accuracy@1": 0.5925925925925926,
+            "hit@1": 0.037037037037037035,
+            "hit@10": 0.1111111111111111,
+            "hit@3": 0.037037037037037035,
+            "hit@5": 0.037037037037037035,
+            "mrr@10": 0.04783950617283951,
+            "page_recall@1": 0.037037037037037035,
+            "page_recall@10": 0.1111111111111111,
+            "page_recall@3": 0.037037037037037035,
+            "page_recall@5": 0.037037037037037035
+          },
+          "questions": 27,
+          "unanswerable": 0
+        }
+      }
+    },
+    "hybrid": {
+      "category": {
+        "comparative": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.5,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 6,
+          "unanswerable": 0
+        },
+        "definition_policy": {
+          "answerable": 3,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.3333333333333333,
+            "hit@3": 0.0,
+            "hit@5": 0.3333333333333333,
+            "mrr@10": 0.06666666666666667,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.3333333333333333,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.3333333333333333
+          },
+          "questions": 3,
+          "unanswerable": 0
+        },
+        "factual": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.4,
+            "hit@1": 0.2,
+            "hit@10": 0.3,
+            "hit@3": 0.2,
+            "hit@5": 0.2,
+            "mrr@10": 0.2111111111111111,
+            "page_recall@1": 0.2,
+            "page_recall@10": 0.3,
+            "page_recall@3": 0.2,
+            "page_recall@5": 0.2
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "numerical": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.3333333333333333,
+            "hit@1": 0.0,
+            "hit@10": 0.1111111111111111,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.018518518518518517,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.1111111111111111,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 9,
+          "unanswerable": 0
+        },
+        "unanswerable": {
+          "answerable": 0,
+          "metrics": {},
+          "questions": 2,
+          "unanswerable": 2
+        }
+      },
+      "company": {
+        "BNP Paribas": {
+          "answerable": 10,
+          "metrics": {
+            "document_accuracy@1": 0.3,
+            "hit@1": 0.0,
+            "hit@10": 0.1,
+            "hit@3": 0.0,
+            "hit@5": 0.1,
+            "mrr@10": 0.02,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.1,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.1
+          },
+          "questions": 10,
+          "unanswerable": 0
+        },
+        "Crédit Agricole S.A.": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.2222222222222222,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 10,
+          "unanswerable": 1
+        },
+        "Société Générale": {
+          "answerable": 9,
+          "metrics": {
+            "document_accuracy@1": 0.7777777777777778,
+            "hit@1": 0.2222222222222222,
+            "hit@10": 0.4444444444444444,
+            "hit@3": 0.2222222222222222,
+            "hit@5": 0.2222222222222222,
+            "mrr@10": 0.25308641975308643,
+            "page_recall@1": 0.2222222222222222,
+            "page_recall@10": 0.4444444444444444,
+            "page_recall@3": 0.2222222222222222,
+            "page_recall@5": 0.2222222222222222
+          },
+          "questions": 10,
+          "unanswerable": 1
+        }
+      },
+      "language": {
+        "en": {
+          "answerable": 6,
+          "metrics": {
+            "document_accuracy@1": 0.6666666666666666,
+            "hit@1": 0.0,
+            "hit@10": 0.16666666666666666,
+            "hit@3": 0.0,
+            "hit@5": 0.16666666666666666,
+            "mrr@10": 0.03333333333333333,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.16666666666666666,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.16666666666666666
+          },
+          "questions": 8,
+          "unanswerable": 2
+        },
+        "fr": {
+          "answerable": 22,
+          "metrics": {
+            "document_accuracy@1": 0.36363636363636365,
+            "hit@1": 0.09090909090909091,
+            "hit@10": 0.18181818181818182,
+            "hit@3": 0.09090909090909091,
+            "hit@5": 0.09090909090909091,
+            "mrr@10": 0.10353535353535354,
+            "page_recall@1": 0.09090909090909091,
+            "page_recall@10": 0.18181818181818182,
+            "page_recall@3": 0.09090909090909091,
+            "page_recall@5": 0.09090909090909091
+          },
+          "questions": 22,
+          "unanswerable": 0
+        }
+      },
+      "overall": {
+        "answerable": 28,
+        "metrics": {
+          "document_accuracy@1": 0.42857142857142855,
+          "hit@1": 0.07142857142857142,
+          "hit@10": 0.17857142857142858,
+          "hit@3": 0.07142857142857142,
+          "hit@5": 0.10714285714285714,
+          "mrr@10": 0.0884920634920635,
+          "page_recall@1": 0.07142857142857142,
+          "page_recall@10": 0.17857142857142858,
+          "page_recall@3": 0.07142857142857142,
+          "page_recall@5": 0.10714285714285714
+        },
+        "questions": 30,
+        "unanswerable": 2
+      },
+      "relevance": {
+        "multi_page": {
+          "answerable": 1,
+          "metrics": {
+            "document_accuracy@1": 1.0,
+            "hit@1": 0.0,
+            "hit@10": 0.0,
+            "hit@3": 0.0,
+            "hit@5": 0.0,
+            "mrr@10": 0.0,
+            "page_recall@1": 0.0,
+            "page_recall@10": 0.0,
+            "page_recall@3": 0.0,
+            "page_recall@5": 0.0
+          },
+          "questions": 1,
+          "unanswerable": 0
+        },
+        "single_page": {
+          "answerable": 27,
+          "metrics": {
+            "document_accuracy@1": 0.4074074074074074,
+            "hit@1": 0.07407407407407407,
+            "hit@10": 0.18518518518518517,
+            "hit@3": 0.07407407407407407,
+            "hit@5": 0.1111111111111111,
+            "mrr@10": 0.09176954732510288,
+            "page_recall@1": 0.07407407407407407,
+            "page_recall@10": 0.18518518518518517,
+            "page_recall@3": 0.07407407407407407,
+            "page_recall@5": 0.1111111111111111
+          },
+          "questions": 27,
+          "unanswerable": 0
+        }
+      }
+    }
+  },
+  "independently_verified_groups": {
+    "B_reference": 13,
+    "bm25": 13,
+    "dense": 13,
+    "hybrid": 13
+  },
+  "limitations": [
+    "Small development dataset; no generalisation claim",
+    "No refusal-quality measurement",
+    "Language is not an established cause of differences"
+  ],
+  "matched_control_uses_children": true,
+  "search_execution": "isolated FAISS process; four threads; validated float32 NPY and JSON",
+  "selected_method": "bm25",
+  "split": "dev",
+  "test_metrics_generated": false,
+  "unanswerable_question_ids": [
+    "finrag_v1_casa_15",
+    "finrag_v1_sg_15"
+  ]
+}

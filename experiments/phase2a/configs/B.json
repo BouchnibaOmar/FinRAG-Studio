@@ -1,0 +1,1 @@
+{"configuration_id":"B","chunking":{"method":"fixed_window","maximum_size":2000,"overlap":200,"unit":"characters","version":"characters-v1"},"k1":1.2,"b":0.75,"tokenizer_version":"unicode-financial-v1","top_k":10}

@@ -1,0 +1,201 @@
+{
+  "$defs": {
+    "DatasetCounts": {
+      "additionalProperties": false,
+      "properties": {
+        "answerable": {
+          "minimum": 0,
+          "title": "Answerable",
+          "type": "integer"
+        },
+        "candidate": {
+          "minimum": 0,
+          "title": "Candidate",
+          "type": "integer"
+        },
+        "dev": {
+          "minimum": 0,
+          "title": "Dev",
+          "type": "integer"
+        },
+        "evidence_excerpts": {
+          "minimum": 0,
+          "title": "Evidence Excerpts",
+          "type": "integer"
+        },
+        "evidence_pages": {
+          "minimum": 0,
+          "title": "Evidence Pages",
+          "type": "integer"
+        },
+        "questions": {
+          "minimum": 0,
+          "title": "Questions",
+          "type": "integer"
+        },
+        "test": {
+          "minimum": 0,
+          "title": "Test",
+          "type": "integer"
+        },
+        "unanswerable": {
+          "minimum": 0,
+          "title": "Unanswerable",
+          "type": "integer"
+        },
+        "verified": {
+          "minimum": 0,
+          "title": "Verified",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "questions",
+        "dev",
+        "test",
+        "answerable",
+        "unanswerable",
+        "candidate",
+        "verified",
+        "evidence_pages",
+        "evidence_excerpts"
+      ],
+      "title": "DatasetCounts",
+      "type": "object"
+    },
+    "Transformation": {
+      "additionalProperties": false,
+      "properties": {
+        "new_value": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "New Value",
+          "type": "string"
+        },
+        "original_value": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Original Value",
+          "type": "string"
+        },
+        "question_id": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Question Id",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Reason",
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question_id",
+        "original_value",
+        "new_value",
+        "reason",
+        "version"
+      ],
+      "title": "Transformation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "counts": {
+      "$ref": "#/$defs/DatasetCounts"
+    },
+    "creation_timestamp": {
+      "format": "date-time",
+      "title": "Creation Timestamp",
+      "type": "string"
+    },
+    "dataset_name": {
+      "const": "finrag",
+      "title": "Dataset Name",
+      "type": "string"
+    },
+    "dataset_version": {
+      "const": "finrag_v1",
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "imported_hashes": {
+      "additionalProperties": {
+        "pattern": "^[a-f0-9]{64}$",
+        "type": "string"
+      },
+      "title": "Imported Hashes",
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "prototype_baseline_reference": {
+      "title": "Prototype Baseline Reference",
+      "type": "string"
+    },
+    "review_status": {
+      "const": "externally_reviewed_ai_assisted",
+      "title": "Review Status",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_artifacts": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Source Artifacts",
+      "type": "object"
+    },
+    "source_hashes": {
+      "additionalProperties": {
+        "pattern": "^[a-f0-9]{64}$",
+        "type": "string"
+      },
+      "title": "Source Hashes",
+      "type": "object"
+    },
+    "transformation_history": {
+      "items": {
+        "$ref": "#/$defs/Transformation"
+      },
+      "title": "Transformation History",
+      "type": "array"
+    }
+  },
+  "required": [
+    "dataset_name",
+    "dataset_version",
+    "schema_version",
+    "creation_timestamp",
+    "review_status",
+    "counts",
+    "source_artifacts",
+    "source_hashes",
+    "imported_hashes",
+    "transformation_history",
+    "limitations",
+    "prototype_baseline_reference"
+  ],
+  "title": "DatasetManifest",
+  "type": "object"
+}

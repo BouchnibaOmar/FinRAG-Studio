@@ -1,0 +1,26 @@
+[
+  {
+    "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+    "source_sha256": "65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+    "source_filename": "bnp_urd_2025_en.pdf",
+    "company_family": "BNP Paribas",
+    "reporting_entity": "BNP Paribas",
+    "language": "en"
+  },
+  {
+    "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+    "source_sha256": "d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+    "source_filename": "casa_urd_2025_en.pdf",
+    "company_family": "Crédit Agricole",
+    "reporting_entity": "Crédit Agricole S.A.",
+    "language": "en"
+  },
+  {
+    "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+    "source_sha256": "bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+    "source_filename": "sg_urd_2026_fy2025_fr.pdf",
+    "company_family": "Société Générale",
+    "reporting_entity": "Société Générale",
+    "language": "fr"
+  }
+]

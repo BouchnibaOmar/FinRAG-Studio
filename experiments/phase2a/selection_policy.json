@@ -1,0 +1,8 @@
+{
+  "phase": "2A",
+  "evaluation_split": "dev",
+  "selection_priority": ["highest_answerable_hit@5", "highest_mrr@10", "highest_hit@1", "fewest_chunks", "smallest_overlap"],
+  "test_policy": "Frozen test previously reported by prototype; excluded from every Phase 2A run.",
+  "historical_test_metrics_used_for_selection": false,
+  "fully_tied_candidates": "Keep lexically smallest configuration ID for deterministic reporting; substantive priorities remain unchanged."
+}

@@ -1,0 +1,69 @@
+{
+  "chunk_limit": 1250,
+  "chunk_unit": "cl100k_base tokens",
+  "chunks": 3760,
+  "configuration_mismatch": "1250 cl100k_base tokens per chunk versus MPNet's 384 model-token input limit.",
+  "corpus_reports": 3,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "embedding_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "groups": {
+    "dev": {
+      "answerable": 28,
+      "metrics": {
+        "document_accuracy": 0.535714,
+        "mrr": 0.059524,
+        "recall@1": 0.035714,
+        "recall@3": 0.107143,
+        "recall@5": 0.107143
+      },
+      "questions": 30,
+      "unanswerable": 2
+    },
+    "overall": {
+      "answerable": 42,
+      "metrics": {
+        "document_accuracy": 0.619048,
+        "mrr": 0.051587,
+        "recall@1": 0.02381,
+        "recall@3": 0.095238,
+        "recall@5": 0.095238
+      },
+      "questions": 45,
+      "unanswerable": 3
+    },
+    "test": {
+      "answerable": 14,
+      "metrics": {
+        "document_accuracy": 0.785714,
+        "mrr": 0.035714,
+        "recall@1": 0.0,
+        "recall@3": 0.071429,
+        "recall@5": 0.071429
+      },
+      "questions": 15,
+      "unanswerable": 1
+    }
+  },
+  "index": "faiss.IndexFlatIP",
+  "label": "historical prototype result",
+  "model_token_limit": 384,
+  "normalized_embeddings": true,
+  "overlap": 0,
+  "prototype": "DocsGPT-Custom",
+  "prototype_commit": "a6002cdfe0e5ecb9dd3cac5a32a349c5bf621eb3",
+  "prototype_test_count": {
+    "earlier_recorded_passes": 80,
+    "execution_count_status": "unresolved",
+    "static_methods": 87,
+    "stored_87_pass_record_found": false
+  },
+  "source_hashes": {
+    "baseline.json": "7a52843df0a65013e67a26704e3452b385b858ee55a47e8f004f80ea7765eceb",
+    "finrag_v1.frozen.json": "c7d39dcd7266fea973ad2f111a7f1cbb7a1c10169d859a7e274cb9b4de7f8382",
+    "retrieval_baseline_metrics.json": "90ca81d35af69e2a9840bef22f463af025032d6eaeb676aa0d724fcc79aac017"
+  },
+  "statements": [
+    "Not reproduced by FinRAG-Studio.",
+    "Not evidence of answer-generation quality."
+  ]
+}

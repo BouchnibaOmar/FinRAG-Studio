@@ -1,0 +1,102 @@
+{
+  "$defs": {
+    "ChunkingConfig": {
+      "additionalProperties": false,
+      "properties": {
+        "maximum_size": {
+          "default": 1250,
+          "exclusiveMinimum": 0,
+          "title": "Maximum Size",
+          "type": "integer"
+        },
+        "method": {
+          "const": "fixed_window",
+          "default": "fixed_window",
+          "title": "Method",
+          "type": "string"
+        },
+        "overlap": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Overlap",
+          "type": "integer"
+        },
+        "unit": {
+          "const": "characters",
+          "default": "characters",
+          "title": "Unit",
+          "type": "string"
+        },
+        "version": {
+          "const": "characters-v1",
+          "default": "characters-v1",
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "title": "ChunkingConfig",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "chunk_id": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Chunk Id",
+      "type": "string"
+    },
+    "chunk_index_on_page": {
+      "minimum": 0,
+      "title": "Chunk Index On Page",
+      "type": "integer"
+    },
+    "chunking_config": {
+      "$ref": "#/$defs/ChunkingConfig"
+    },
+    "content_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Content Sha256",
+      "type": "string"
+    },
+    "document_id": {
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "title": "Document Id",
+      "type": "string"
+    },
+    "physical_page_number": {
+      "exclusiveMinimum": 0,
+      "title": "Physical Page Number",
+      "type": "integer"
+    },
+    "source_filename": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Source Filename",
+      "type": "string"
+    },
+    "source_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Source Sha256",
+      "type": "string"
+    },
+    "text": {
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    }
+  },
+  "required": [
+    "document_id",
+    "source_filename",
+    "source_sha256",
+    "chunk_id",
+    "physical_page_number",
+    "chunk_index_on_page",
+    "text",
+    "chunking_config",
+    "content_sha256"
+  ],
+  "title": "ChunkRecord",
+  "type": "object"
+}

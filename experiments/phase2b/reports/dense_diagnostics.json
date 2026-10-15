@@ -1,0 +1,250 @@
+{
+  "additional_diagnostics": {
+    "all_answerable_supporting_excerpt_at5_count": 1,
+    "failed_expected_excerpt_beyond50_count": 24,
+    "failed_expected_excerpt_rank_bins": {
+      "10": 2,
+      "100": 6,
+      "1000": 20,
+      "5": 0,
+      "50": 3,
+      "500": 17
+    },
+    "failed_top1_expected_document_count": 16,
+    "failed_top1_other_document_count": 11,
+    "fresh_actual_reencoded_counts": {
+      "fresh_passages": 21,
+      "fresh_queries": 22
+    },
+    "page_hit_without_supporting_excerpt_at5_ids": [],
+    "questions_with_nonunique_native_excerpt_ids": [
+      "finrag_v1_bnp_02",
+      "finrag_v1_bnp_03",
+      "finrag_v1_bnp_14",
+      "finrag_v1_casa_03",
+      "finrag_v1_casa_07",
+      "finrag_v1_casa_09",
+      "finrag_v1_casa_11",
+      "finrag_v1_sg_01",
+      "finrag_v1_sg_02",
+      "finrag_v1_sg_03",
+      "finrag_v1_sg_06",
+      "finrag_v1_sg_12"
+    ],
+    "representative_failure_evidence_ranks": [
+      8,
+      289,
+      4031
+    ],
+    "representative_failure_ids": [
+      "finrag_v1_bnp_14",
+      "finrag_v1_casa_09",
+      "finrag_v1_casa_08"
+    ],
+    "success_ids": [
+      {
+        "best_expected_evidence_rank": 1,
+        "question_id": "finrag_v1_sg_02"
+      }
+    ]
+  },
+  "demonstrated_production_bugs": [],
+  "encoder": {
+    "all_forwards_inference_mode": true,
+    "checkpoint_to_exchange_arrays_exact": true,
+    "chunk_order_to_exchange_exact": true,
+    "masked_pooling_maximum_error": 1.4901161193847656e-08,
+    "model_eval": true,
+    "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "passage_norm_max": 1.0000001192092896,
+    "passage_norm_min": 0.9999998807907104,
+    "pooling_test_included_padding": true,
+    "prefixes": {
+      "passage": "passage: ",
+      "query": "query: "
+    },
+    "query_norm_max": 1.0000001192092896,
+    "query_norm_min": 0.9999999403953552
+  },
+  "existing_dev_hit5_unchanged": {
+    "bm25": "9/28",
+    "dense": "1/28",
+    "hybrid": "3/28"
+  },
+  "existing_metric_groups_independently_reverified": {
+    "bm25": 13,
+    "dense": 13,
+    "hybrid": 13
+  },
+  "fresh_vectors": {
+    "fresh_passages": {
+      "all_agree_at_1e-5": true,
+      "checkpoint_batches_reencoded": 6,
+      "maximum_absolute_difference": 0.0,
+      "minimum_cosine_agreement": 0.9999998807907104,
+      "selected_rows": [
+        0,
+        1,
+        1220,
+        2439,
+        2440,
+        2441,
+        4190,
+        5939,
+        5940,
+        5941,
+        7132,
+        8324
+      ]
+    },
+    "fresh_queries": {
+      "all_agree_at_1e-5": true,
+      "checkpoint_batches_reencoded": 6,
+      "maximum_absolute_difference": 0.0,
+      "minimum_cosine_agreement": 0.9999998807907104,
+      "selected_rows": [
+        0,
+        8,
+        13,
+        19,
+        26,
+        29
+      ]
+    }
+  },
+  "full_encoding_started": false,
+  "limitations": [
+    "Fresh encoding checks cover a deterministic sample of original batches",
+    "All answerable dev annotations remain candidate",
+    "Repeated exact excerpts do not prove alternative pages supply complete financial context",
+    "Synthetic semantic probes do not establish generalisation or a language effect"
+  ],
+  "model_downloads": 0,
+  "native_index": {
+    "all_native_row_metadata_matches": true,
+    "native_vector_count": 8325,
+    "native_vector_maximum_difference": 0.0,
+    "native_vectors_equal_cache_sorted_by_id": true
+  },
+  "preservation": {
+    "changed_files": [],
+    "files_verified": 4210
+  },
+  "production_fixes_made": false,
+  "ranking_under_frozen_references": {
+    "best_expected_evidence_ranks_where_present": {
+      "count": 27,
+      "maximum": 4031,
+      "median": 289,
+      "minimum": 8
+    },
+    "best_expected_page_ranks": {
+      "count": 27,
+      "maximum": 2702,
+      "median": 289,
+      "minimum": 6
+    },
+    "confirmed_excerpt_beyond_top5_question_ids": [
+      "finrag_v1_bnp_01",
+      "finrag_v1_bnp_02",
+      "finrag_v1_bnp_03",
+      "finrag_v1_bnp_05",
+      "finrag_v1_bnp_06",
+      "finrag_v1_bnp_07",
+      "finrag_v1_bnp_08",
+      "finrag_v1_bnp_10",
+      "finrag_v1_bnp_12",
+      "finrag_v1_bnp_14",
+      "finrag_v1_casa_01",
+      "finrag_v1_casa_03",
+      "finrag_v1_casa_05",
+      "finrag_v1_casa_07",
+      "finrag_v1_casa_08",
+      "finrag_v1_casa_09",
+      "finrag_v1_casa_10",
+      "finrag_v1_casa_11",
+      "finrag_v1_casa_13",
+      "finrag_v1_sg_01",
+      "finrag_v1_sg_03",
+      "finrag_v1_sg_06",
+      "finrag_v1_sg_08",
+      "finrag_v1_sg_09",
+      "finrag_v1_sg_10",
+      "finrag_v1_sg_12",
+      "finrag_v1_sg_14"
+    ],
+    "dense_hit5_failures": 27,
+    "expected_evidence_similarity_where_present": {
+      "count": 27,
+      "maximum": 0.8793942928314209,
+      "median": 0.8475251793861389,
+      "minimum": 0.7836570739746094
+    },
+    "top_minus_evidence_similarity_where_present": {
+      "count": 27,
+      "maximum": 0.08211475610733032,
+      "median": 0.04424023628234863,
+      "minimum": 0.009873032569885254
+    },
+    "top_similarity": {
+      "count": 27,
+      "maximum": 0.9131295680999756,
+      "median": 0.891294002532959,
+      "minimum": 0.8657718300819397
+    }
+  },
+  "recommended_next_action_ids": [
+    "finrag_v1_bnp_14",
+    "finrag_v1_casa_09",
+    "finrag_v1_casa_08",
+    "finrag_v1_casa_11"
+  ],
+  "reference_grounding": {
+    "annotation_status_counts": {
+      "candidate": 28
+    },
+    "answerable_questions": 28,
+    "evidence_excerpts": 32,
+    "full_equivalent_child_excerpts": 32,
+    "full_exact_child_excerpts": 32,
+    "native_equivalent_excerpts": 32,
+    "native_exact_excerpts": 32,
+    "native_excerpt_found_only_alternate_page_ids": [],
+    "questions_with_all_full_excerpts_missing_children": [],
+    "questions_with_any_excerpt_missing_native": [],
+    "questions_with_any_full_excerpt_missing_children": [],
+    "source_present_but_full_excerpt_fragmented_ids": []
+  },
+  "reference_page_uncertainty": {
+    "frozen_excerpt_character_lengths": {
+      "maximum": 73,
+      "median": 40.0,
+      "minimum": 5
+    },
+    "same_document_nonreference_page_top5_all_excerpts_ids": [],
+    "same_document_nonreference_page_top5_with_exact_excerpt_ids": [
+      "finrag_v1_casa_11"
+    ],
+    "scope": "excerpt containment diagnostic, not corrected retrieval accuracy"
+  },
+  "self_match": {
+    "minimum_self_score": 0.9999998807907104,
+    "own_id_rank1": 12,
+    "passes_identical_content_ties": 12,
+    "sample_size": 12
+  },
+  "stored_predictions": {
+    "all_top10_match": true,
+    "all_top50_match": true,
+    "maximum_score_difference": 0.0,
+    "query_count": 30
+  },
+  "synthetic_semantic": {
+    "cases": 6,
+    "cross_language_top1_correct": 5,
+    "failure_ids": [
+      "synthetic_01"
+    ]
+  },
+  "test_evaluated": false
+}

@@ -1,0 +1,569 @@
+{
+  "$defs": {
+    "CalculatedResult": {
+      "additionalProperties": false,
+      "properties": {
+        "currency": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Currency"
+        },
+        "interpretation": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Interpretation",
+          "type": "string"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Unit"
+        },
+        "value": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "currency",
+        "interpretation"
+      ],
+      "title": "CalculatedResult",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "physical_page_number": {
+          "exclusiveMinimum": 0,
+          "title": "Physical Page Number",
+          "type": "integer"
+        },
+        "text": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "physical_page_number",
+        "text"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "FinancialPeriod": {
+      "additionalProperties": false,
+      "properties": {
+        "corpus_years": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Corpus Years"
+        },
+        "meaning": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Meaning",
+          "type": "string"
+        },
+        "plan_horizon": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Plan Horizon"
+        },
+        "report_fiscal_year": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Report Fiscal Year"
+        },
+        "values": {
+          "items": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "title": "Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "meaning"
+      ],
+      "title": "FinancialPeriod",
+      "type": "object"
+    },
+    "FinancialScope": {
+      "additionalProperties": false,
+      "properties": {
+        "entities": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/FinancialScope"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Entities"
+        },
+        "kind": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Kind",
+          "type": "string"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "title": "FinancialScope",
+      "type": "object"
+    },
+    "SourceValue": {
+      "additionalProperties": false,
+      "properties": {
+        "currency": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Currency"
+        },
+        "evidence_text": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Evidence Text",
+          "type": "string"
+        },
+        "label": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Label",
+          "type": "string"
+        },
+        "literal": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Literal",
+          "type": "string"
+        },
+        "page_number": {
+          "exclusiveMinimum": 0,
+          "title": "Page Number",
+          "type": "integer"
+        },
+        "period": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Period"
+        },
+        "scope": {
+          "$ref": "#/$defs/FinancialScope"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Unit"
+        },
+        "value": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "title": "Value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "literal",
+        "page_number",
+        "unit",
+        "currency",
+        "period",
+        "scope",
+        "label",
+        "evidence_text"
+      ],
+      "title": "SourceValue",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "annotation_status": {
+      "enum": [
+        "candidate",
+        "verified"
+      ],
+      "title": "Annotation Status",
+      "type": "string"
+    },
+    "answerable": {
+      "title": "Answerable",
+      "type": "boolean"
+    },
+    "calculated_result": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/CalculatedResult"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "calculation": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Calculation"
+    },
+    "category": {
+      "enum": [
+        "factual",
+        "numerical",
+        "comparative",
+        "definition_policy",
+        "unanswerable"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "company": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Company",
+      "type": "string"
+    },
+    "context_annotation_status": {
+      "const": "candidate",
+      "title": "Context Annotation Status",
+      "type": "string"
+    },
+    "corpus_years": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Corpus Years"
+    },
+    "currency": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Currency"
+    },
+    "difficulty": {
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "title": "Difficulty",
+      "type": "string"
+    },
+    "document_id": {
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "title": "Document Id",
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/Evidence"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "evidence_bundle_pages": {
+      "items": {
+        "exclusiveMinimum": 0,
+        "type": "integer"
+      },
+      "title": "Evidence Bundle Pages",
+      "type": "array"
+    },
+    "language": {
+      "enum": [
+        "fr",
+        "en"
+      ],
+      "title": "Language",
+      "type": "string"
+    },
+    "operand_1": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SourceValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "operand_2": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SourceValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "operation": {
+      "anyOf": [
+        {
+          "const": "subtract",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Operation"
+    },
+    "period": {
+      "$ref": "#/$defs/FinancialPeriod"
+    },
+    "possible_confusion": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Possible Confusion"
+    },
+    "question": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Question",
+      "type": "string"
+    },
+    "question_id": {
+      "pattern": "^finrag_v1_[a-z]+_[0-9]{2}$",
+      "title": "Question Id",
+      "type": "string"
+    },
+    "reason_unanswerable": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reason Unanswerable"
+    },
+    "reference_answer": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Reference Answer",
+      "type": "string"
+    },
+    "relevant_chunk_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Relevant Chunk Ids",
+      "type": "array"
+    },
+    "relevant_pages": {
+      "items": {
+        "exclusiveMinimum": 0,
+        "type": "integer"
+      },
+      "title": "Relevant Pages",
+      "type": "array"
+    },
+    "requested_year": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Requested Year"
+    },
+    "rounding_rule": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rounding Rule"
+    },
+    "scope": {
+      "$ref": "#/$defs/FinancialScope"
+    },
+    "source_values": {
+      "items": {
+        "$ref": "#/$defs/SourceValue"
+      },
+      "title": "Source Values",
+      "type": "array"
+    },
+    "split": {
+      "enum": [
+        "dev",
+        "test"
+      ],
+      "title": "Split",
+      "type": "string"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Unit"
+    }
+  },
+  "required": [
+    "question_id",
+    "document_id",
+    "company",
+    "language",
+    "category",
+    "difficulty",
+    "question",
+    "reference_answer",
+    "relevant_pages",
+    "evidence",
+    "relevant_chunk_ids",
+    "answerable",
+    "annotation_status",
+    "split",
+    "unit",
+    "currency",
+    "period",
+    "scope",
+    "calculation",
+    "source_values",
+    "context_annotation_status",
+    "evidence_bundle_pages"
+  ],
+  "title": "EvaluationQuestion",
+  "type": "object"
+}

@@ -1,0 +1,77 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "blank_page_count": {
+      "minimum": 0,
+      "title": "Blank Page Count",
+      "type": "integer"
+    },
+    "byte_size": {
+      "exclusiveMinimum": 0,
+      "title": "Byte Size",
+      "type": "integer"
+    },
+    "document_id": {
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "title": "Document Id",
+      "type": "string"
+    },
+    "extraction_status": {
+      "const": "extracted",
+      "title": "Extraction Status",
+      "type": "string"
+    },
+    "extraction_timestamp": {
+      "format": "date-time",
+      "title": "Extraction Timestamp",
+      "type": "string"
+    },
+    "extractor_name": {
+      "const": "pypdf",
+      "title": "Extractor Name",
+      "type": "string"
+    },
+    "extractor_version": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Extractor Version",
+      "type": "string"
+    },
+    "physical_page_count": {
+      "exclusiveMinimum": 0,
+      "title": "Physical Page Count",
+      "type": "integer"
+    },
+    "source_filename": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "title": "Source Filename",
+      "type": "string"
+    },
+    "source_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Source Sha256",
+      "type": "string"
+    },
+    "text_page_count": {
+      "exclusiveMinimum": 0,
+      "title": "Text Page Count",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "document_id",
+    "source_filename",
+    "source_sha256",
+    "byte_size",
+    "physical_page_count",
+    "text_page_count",
+    "blank_page_count",
+    "extractor_name",
+    "extractor_version",
+    "extraction_timestamp",
+    "extraction_status"
+  ],
+  "title": "DocumentManifest",
+  "type": "object"
+}

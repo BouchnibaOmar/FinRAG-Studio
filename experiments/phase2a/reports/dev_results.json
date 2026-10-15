@@ -1,0 +1,3272 @@
+{
+  "configurations": [
+    {
+      "chunk_count": 13178,
+      "configuration": {
+        "b": 0.75,
+        "chunking": {
+          "maximum_size": 1000,
+          "method": "fixed_window",
+          "overlap": 100,
+          "unit": "characters",
+          "version": "characters-v1"
+        },
+        "configuration_id": "A",
+        "k1": 1.2,
+        "tokenizer_version": "unicode-financial-v1",
+        "top_k": 10
+      },
+      "failures": [
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 76,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 32,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 256,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 193,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 395,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_02",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 104,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 413,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 263,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 490,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_03",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 104,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 413,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 263,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 490,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_06",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 10,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 39,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_07",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 10,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 37,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_08",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 26,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 350,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 46,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 39,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 40,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1
+            }
+          ],
+          "question_id": "finrag_v1_casa_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 3,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 178,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 698,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 612,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 702,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 4
+            }
+          ],
+          "question_id": "finrag_v1_casa_03",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 306,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 18,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 18,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 94,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 69,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1067
+            }
+          ],
+          "question_id": "finrag_v1_casa_05",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 11,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 712,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 44,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 256,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 255,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_07",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 452,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 444,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_08",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 489,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 37,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 453,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 12
+            }
+          ],
+          "question_id": "finrag_v1_casa_09",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 28,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 275,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 393,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 350,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 39,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 41,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 845
+            }
+          ],
+          "question_id": "finrag_v1_casa_11",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 501,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 981,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 4,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 760,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 496,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1067
+            }
+          ],
+          "question_id": "finrag_v1_casa_13",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 104,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 415,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 843,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 980,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 541,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_06",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 43,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 174,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 562,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 44,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 43,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 40,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 44,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_12",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 501,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 485,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 487,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 185,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 504,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 45
+            }
+          ],
+          "question_id": "finrag_v1_sg_14",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 797,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 658,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 807,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 659,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 797,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        }
+      ],
+      "groups": {
+        "category": {
+          "comparative": {
+            "answerable": 6,
+            "metrics": {
+              "document_accuracy@1": 0.5,
+              "hit@1": 0.0,
+              "hit@10": 0.16666666666666666,
+              "hit@3": 0.16666666666666666,
+              "hit@5": 0.16666666666666666,
+              "mrr@10": 0.08333333333333333,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.16666666666666666,
+              "page_recall@3": 0.16666666666666666,
+              "page_recall@5": 0.16666666666666666
+            },
+            "questions": 6,
+            "unanswerable": 0
+          },
+          "definition_policy": {
+            "answerable": 3,
+            "metrics": {
+              "document_accuracy@1": 0.6666666666666666,
+              "hit@1": 0.0,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.3333333333333333,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.1111111111111111,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.3333333333333333,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 3,
+            "unanswerable": 0
+          },
+          "factual": {
+            "answerable": 10,
+            "metrics": {
+              "document_accuracy@1": 0.4,
+              "hit@1": 0.1,
+              "hit@10": 0.4,
+              "hit@3": 0.3,
+              "hit@5": 0.4,
+              "mrr@10": 0.18666666666666668,
+              "page_recall@1": 0.1,
+              "page_recall@10": 0.4,
+              "page_recall@3": 0.3,
+              "page_recall@5": 0.4
+            },
+            "questions": 10,
+            "unanswerable": 0
+          },
+          "numerical": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.3333333333333333,
+              "hit@1": 0.0,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.2222222222222222,
+              "hit@5": 0.2222222222222222,
+              "mrr@10": 0.10493827160493827,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.2222222222222222,
+              "page_recall@5": 0.2222222222222222
+            },
+            "questions": 9,
+            "unanswerable": 0
+          },
+          "unanswerable": {
+            "answerable": 0,
+            "metrics": {},
+            "questions": 2,
+            "unanswerable": 2
+          }
+        },
+        "company": {
+          "BNP Paribas": {
+            "answerable": 10,
+            "metrics": {
+              "document_accuracy@1": 0.3,
+              "hit@1": 0.0,
+              "hit@10": 0.3,
+              "hit@3": 0.3,
+              "hit@5": 0.3,
+              "mrr@10": 0.11666666666666665,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3,
+              "page_recall@3": 0.3,
+              "page_recall@5": 0.3
+            },
+            "questions": 10,
+            "unanswerable": 0
+          },
+          "Crédit Agricole S.A.": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.2222222222222222,
+              "hit@1": 0.0,
+              "hit@10": 0.0,
+              "hit@3": 0.0,
+              "hit@5": 0.0,
+              "mrr@10": 0.0,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.0,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.0
+            },
+            "questions": 10,
+            "unanswerable": 1
+          },
+          "Société Générale": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.7777777777777778,
+              "hit@1": 0.1111111111111111,
+              "hit@10": 0.6666666666666666,
+              "hit@3": 0.4444444444444444,
+              "hit@5": 0.5555555555555556,
+              "mrr@10": 0.27530864197530863,
+              "page_recall@1": 0.1111111111111111,
+              "page_recall@10": 0.6666666666666666,
+              "page_recall@3": 0.4444444444444444,
+              "page_recall@5": 0.5555555555555556
+            },
+            "questions": 10,
+            "unanswerable": 1
+          }
+        },
+        "language": {
+          "en": {
+            "answerable": 6,
+            "metrics": {
+              "document_accuracy@1": 0.6666666666666666,
+              "hit@1": 0.0,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.3333333333333333,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.13888888888888887,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.3333333333333333,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 8,
+            "unanswerable": 2
+          },
+          "fr": {
+            "answerable": 22,
+            "metrics": {
+              "document_accuracy@1": 0.36363636363636365,
+              "hit@1": 0.045454545454545456,
+              "hit@10": 0.3181818181818182,
+              "hit@3": 0.22727272727272727,
+              "hit@5": 0.2727272727272727,
+              "mrr@10": 0.12777777777777777,
+              "page_recall@1": 0.045454545454545456,
+              "page_recall@10": 0.3181818181818182,
+              "page_recall@3": 0.22727272727272727,
+              "page_recall@5": 0.2727272727272727
+            },
+            "questions": 22,
+            "unanswerable": 0
+          }
+        },
+        "overall": {
+          "answerable": 28,
+          "metrics": {
+            "document_accuracy@1": 0.42857142857142855,
+            "hit@1": 0.03571428571428571,
+            "hit@10": 0.32142857142857145,
+            "hit@3": 0.25,
+            "hit@5": 0.2857142857142857,
+            "mrr@10": 0.13015873015873017,
+            "page_recall@1": 0.03571428571428571,
+            "page_recall@10": 0.32142857142857145,
+            "page_recall@3": 0.25,
+            "page_recall@5": 0.2857142857142857
+          },
+          "questions": 30,
+          "unanswerable": 2
+        },
+        "relevance": {
+          "multi_page": {
+            "answerable": 1,
+            "metrics": {
+              "document_accuracy@1": 1.0,
+              "hit@1": 0.0,
+              "hit@10": 0.0,
+              "hit@3": 0.0,
+              "hit@5": 0.0,
+              "mrr@10": 0.0,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.0,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.0
+            },
+            "questions": 1,
+            "unanswerable": 0
+          },
+          "single_page": {
+            "answerable": 27,
+            "metrics": {
+              "document_accuracy@1": 0.4074074074074074,
+              "hit@1": 0.037037037037037035,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.25925925925925924,
+              "hit@5": 0.2962962962962963,
+              "mrr@10": 0.13497942386831274,
+              "page_recall@1": 0.037037037037037035,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.25925925925925924,
+              "page_recall@5": 0.2962962962962963
+            },
+            "questions": 27,
+            "unanswerable": 0
+          }
+        }
+      },
+      "runtime_seconds": 38.260461000027135,
+      "unanswerable_policy": "Private retrieval outputs only; no correctness or refusal score.",
+      "unanswerable_question_ids": [
+        "finrag_v1_casa_15",
+        "finrag_v1_sg_15"
+      ]
+    },
+    {
+      "chunk_count": 7141,
+      "configuration": {
+        "b": 0.75,
+        "chunking": {
+          "maximum_size": 2000,
+          "method": "fixed_window",
+          "overlap": 200,
+          "unit": "characters",
+          "version": "characters-v1"
+        },
+        "configuration_id": "B",
+        "k1": 1.2,
+        "tokenizer_version": "unicode-financial-v1",
+        "top_k": 10
+      },
+      "failures": [
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 243,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 76,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 656,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 293,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 32,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_02",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 67,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 508,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 547,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_03",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 67,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 508,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 547,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_06",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 28,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 10,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_07",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 13,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 10,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_08",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 113,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 350,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 710,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 39,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1
+            }
+          ],
+          "question_id": "finrag_v1_casa_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 612,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 3,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 702,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 178,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 698,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 4
+            }
+          ],
+          "question_id": "finrag_v1_casa_03",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 18,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 306,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 69,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 94,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 101,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1067
+            }
+          ],
+          "question_id": "finrag_v1_casa_05",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 710,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 712,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 69,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 188,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 11,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_07",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 428,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 63,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 558,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 444,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 554,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_08",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 453,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 455,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 63,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 12
+            }
+          ],
+          "question_id": "finrag_v1_casa_09",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 13,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 28,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 393,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 275,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 38,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 41,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 845
+            }
+          ],
+          "question_id": "finrag_v1_casa_11",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 4,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1070,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 501,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 981,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 867,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1067
+            }
+          ],
+          "question_id": "finrag_v1_casa_13",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 415,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 30,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 104,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 980,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 364,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 43,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 43,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 555,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 40,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_12",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 501,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 485,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 504,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 507,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 484,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 45
+            }
+          ],
+          "question_id": "finrag_v1_sg_14",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 797,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 797,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 658,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 807,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 659,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        }
+      ],
+      "groups": {
+        "category": {
+          "comparative": {
+            "answerable": 6,
+            "metrics": {
+              "document_accuracy@1": 0.5,
+              "hit@1": 0.0,
+              "hit@10": 0.16666666666666666,
+              "hit@3": 0.16666666666666666,
+              "hit@5": 0.16666666666666666,
+              "mrr@10": 0.05555555555555555,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.16666666666666666,
+              "page_recall@3": 0.16666666666666666,
+              "page_recall@5": 0.16666666666666666
+            },
+            "questions": 6,
+            "unanswerable": 0
+          },
+          "definition_policy": {
+            "answerable": 3,
+            "metrics": {
+              "document_accuracy@1": 0.6666666666666666,
+              "hit@1": 0.0,
+              "hit@10": 0.6666666666666666,
+              "hit@3": 0.3333333333333333,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.15873015873015872,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.6666666666666666,
+              "page_recall@3": 0.3333333333333333,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 3,
+            "unanswerable": 0
+          },
+          "factual": {
+            "answerable": 10,
+            "metrics": {
+              "document_accuracy@1": 0.4,
+              "hit@1": 0.1,
+              "hit@10": 0.4,
+              "hit@3": 0.3,
+              "hit@5": 0.4,
+              "mrr@10": 0.2033333333333333,
+              "page_recall@1": 0.1,
+              "page_recall@10": 0.4,
+              "page_recall@3": 0.3,
+              "page_recall@5": 0.4
+            },
+            "questions": 10,
+            "unanswerable": 0
+          },
+          "numerical": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.3333333333333333,
+              "hit@1": 0.0,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.2222222222222222,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.13333333333333333,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.2222222222222222,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 9,
+            "unanswerable": 0
+          },
+          "unanswerable": {
+            "answerable": 0,
+            "metrics": {},
+            "questions": 2,
+            "unanswerable": 2
+          }
+        },
+        "company": {
+          "BNP Paribas": {
+            "answerable": 10,
+            "metrics": {
+              "document_accuracy@1": 0.3,
+              "hit@1": 0.0,
+              "hit@10": 0.3,
+              "hit@3": 0.3,
+              "hit@5": 0.3,
+              "mrr@10": 0.11666666666666665,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3,
+              "page_recall@3": 0.3,
+              "page_recall@5": 0.3
+            },
+            "questions": 10,
+            "unanswerable": 0
+          },
+          "Crédit Agricole S.A.": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.2222222222222222,
+              "hit@1": 0.0,
+              "hit@10": 0.1111111111111111,
+              "hit@3": 0.0,
+              "hit@5": 0.0,
+              "mrr@10": 0.015873015873015872,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.1111111111111111,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.0
+            },
+            "questions": 10,
+            "unanswerable": 1
+          },
+          "Société Générale": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.7777777777777778,
+              "hit@1": 0.1111111111111111,
+              "hit@10": 0.6666666666666666,
+              "hit@3": 0.4444444444444444,
+              "hit@5": 0.6666666666666666,
+              "mrr@10": 0.3037037037037037,
+              "page_recall@1": 0.1111111111111111,
+              "page_recall@10": 0.6666666666666666,
+              "page_recall@3": 0.4444444444444444,
+              "page_recall@5": 0.6666666666666666
+            },
+            "questions": 10,
+            "unanswerable": 1
+          }
+        },
+        "language": {
+          "en": {
+            "answerable": 6,
+            "metrics": {
+              "document_accuracy@1": 0.6666666666666666,
+              "hit@1": 0.0,
+              "hit@10": 0.5,
+              "hit@3": 0.3333333333333333,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.1349206349206349,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.5,
+              "page_recall@3": 0.3333333333333333,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 8,
+            "unanswerable": 2
+          },
+          "fr": {
+            "answerable": 22,
+            "metrics": {
+              "document_accuracy@1": 0.36363636363636365,
+              "hit@1": 0.045454545454545456,
+              "hit@10": 0.3181818181818182,
+              "hit@3": 0.22727272727272727,
+              "hit@5": 0.3181818181818182,
+              "mrr@10": 0.14696969696969697,
+              "page_recall@1": 0.045454545454545456,
+              "page_recall@10": 0.3181818181818182,
+              "page_recall@3": 0.22727272727272727,
+              "page_recall@5": 0.3181818181818182
+            },
+            "questions": 22,
+            "unanswerable": 0
+          }
+        },
+        "overall": {
+          "answerable": 28,
+          "metrics": {
+            "document_accuracy@1": 0.42857142857142855,
+            "hit@1": 0.03571428571428571,
+            "hit@10": 0.35714285714285715,
+            "hit@3": 0.25,
+            "hit@5": 0.32142857142857145,
+            "mrr@10": 0.1443877551020408,
+            "page_recall@1": 0.03571428571428571,
+            "page_recall@10": 0.35714285714285715,
+            "page_recall@3": 0.25,
+            "page_recall@5": 0.32142857142857145
+          },
+          "questions": 30,
+          "unanswerable": 2
+        },
+        "relevance": {
+          "multi_page": {
+            "answerable": 1,
+            "metrics": {
+              "document_accuracy@1": 1.0,
+              "hit@1": 0.0,
+              "hit@10": 0.0,
+              "hit@3": 0.0,
+              "hit@5": 0.0,
+              "mrr@10": 0.0,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.0,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.0
+            },
+            "questions": 1,
+            "unanswerable": 0
+          },
+          "single_page": {
+            "answerable": 27,
+            "metrics": {
+              "document_accuracy@1": 0.4074074074074074,
+              "hit@1": 0.037037037037037035,
+              "hit@10": 0.37037037037037035,
+              "hit@3": 0.25925925925925924,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.14973544973544972,
+              "page_recall@1": 0.037037037037037035,
+              "page_recall@10": 0.37037037037037035,
+              "page_recall@3": 0.25925925925925924,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 27,
+            "unanswerable": 0
+          }
+        }
+      },
+      "runtime_seconds": 33.03252709994558,
+      "unanswerable_policy": "Private retrieval outputs only; no correctness or refusal score.",
+      "unanswerable_question_ids": [
+        "finrag_v1_casa_15",
+        "finrag_v1_sg_15"
+      ]
+    },
+    {
+      "chunk_count": 5108,
+      "configuration": {
+        "b": 0.75,
+        "chunking": {
+          "maximum_size": 3000,
+          "method": "fixed_window",
+          "overlap": 300,
+          "unit": "characters",
+          "version": "characters-v1"
+        },
+        "configuration_id": "C",
+        "k1": 1.2,
+        "tokenizer_version": "unicode-financial-v1",
+        "top_k": 10
+      },
+      "failures": [
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 243,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 373,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 193,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 656,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 489,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_02",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 312,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 67,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 202,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 6
+            }
+          ],
+          "question_id": "finrag_v1_bnp_03",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 312,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 67,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 311,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 202,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_06",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 10,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 22,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 28,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 41,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_07",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 13,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 10,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_08",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 2,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 16,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 350,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 710,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 8
+            }
+          ],
+          "question_id": "finrag_v1_bnp_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 37,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 39,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1
+            }
+          ],
+          "question_id": "finrag_v1_casa_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 400,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 698,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 702,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 3,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 612,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 4
+            }
+          ],
+          "question_id": "finrag_v1_casa_03",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 69,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 18,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 695,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 306,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 163,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1067
+            }
+          ],
+          "question_id": "finrag_v1_casa_05",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 710,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 69,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 323,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 712,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 255,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_07",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 169,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 444,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 558,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 561,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_08",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 444,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 169,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 12
+            }
+          ],
+          "question_id": "finrag_v1_casa_09",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 13,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 273,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 28,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 275,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 393,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            }
+          ],
+          "question_id": "finrag_v1_casa_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 42,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 37,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 39,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 600
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 845
+            }
+          ],
+          "question_id": "finrag_v1_casa_11",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1070,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 4,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 446,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 501,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 981,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 1067
+            }
+          ],
+          "question_id": "finrag_v1_casa_13",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 415,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 73,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 229,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 793,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 30,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 3
+            }
+          ],
+          "question_id": "finrag_v1_sg_01",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 612,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 456,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 698,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 677,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 702,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document retrieved but wrong page",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_10",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 555,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 35,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 430,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 43,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": true,
+            "expected_page_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 34
+            }
+          ],
+          "question_id": "finrag_v1_sg_12",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 504,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 501,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 508,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 507,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 488,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        },
+        {
+          "annotation_status": "candidate",
+          "category": "expected document not retrieved",
+          "expected_pages": [
+            {
+              "document_id": "sha256:bb6c44ca05dd32593a493a8b0deb4f8e82e2f7ed33ac611e9552a3a58641fd54",
+              "physical_page_number": 45
+            }
+          ],
+          "question_id": "finrag_v1_sg_14",
+          "retrieved_top5": [
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 797,
+              "rank": 1
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 658,
+              "rank": 2
+            },
+            {
+              "document_id": "sha256:d5aa05cbf9c4840d0c475cd6321abf0134f9d444f6e01bc887ad7d0238b89fa2",
+              "physical_page_number": 807,
+              "rank": 3
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 659,
+              "rank": 4
+            },
+            {
+              "document_id": "sha256:65822993e7ad299d84f16bd4b495391bb670800bb9a0f301ef72e97b6f62a2e2",
+              "physical_page_number": 658,
+              "rank": 5
+            }
+          ],
+          "support": {
+            "expected_document_present_in_top5": false
+          },
+          "technical_cause": "unknown; category describes observed retrieval evidence"
+        }
+      ],
+      "groups": {
+        "category": {
+          "comparative": {
+            "answerable": 6,
+            "metrics": {
+              "document_accuracy@1": 0.5,
+              "hit@1": 0.0,
+              "hit@10": 0.16666666666666666,
+              "hit@3": 0.0,
+              "hit@5": 0.16666666666666666,
+              "mrr@10": 0.041666666666666664,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.16666666666666666,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.16666666666666666
+            },
+            "questions": 6,
+            "unanswerable": 0
+          },
+          "definition_policy": {
+            "answerable": 3,
+            "metrics": {
+              "document_accuracy@1": 0.6666666666666666,
+              "hit@1": 0.3333333333333333,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.3333333333333333,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.3333333333333333,
+              "page_recall@1": 0.3333333333333333,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.3333333333333333,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 3,
+            "unanswerable": 0
+          },
+          "factual": {
+            "answerable": 10,
+            "metrics": {
+              "document_accuracy@1": 0.4,
+              "hit@1": 0.2,
+              "hit@10": 0.4,
+              "hit@3": 0.3,
+              "hit@5": 0.3,
+              "mrr@10": 0.24583333333333335,
+              "page_recall@1": 0.2,
+              "page_recall@10": 0.4,
+              "page_recall@3": 0.3,
+              "page_recall@5": 0.3
+            },
+            "questions": 10,
+            "unanswerable": 0
+          },
+          "numerical": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.3333333333333333,
+              "hit@1": 0.0,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.3333333333333333,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.12962962962962962,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.3333333333333333,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 9,
+            "unanswerable": 0
+          },
+          "unanswerable": {
+            "answerable": 0,
+            "metrics": {},
+            "questions": 2,
+            "unanswerable": 2
+          }
+        },
+        "company": {
+          "BNP Paribas": {
+            "answerable": 10,
+            "metrics": {
+              "document_accuracy@1": 0.3,
+              "hit@1": 0.2,
+              "hit@10": 0.3,
+              "hit@3": 0.2,
+              "hit@5": 0.3,
+              "mrr@10": 0.225,
+              "page_recall@1": 0.2,
+              "page_recall@10": 0.3,
+              "page_recall@3": 0.2,
+              "page_recall@5": 0.3
+            },
+            "questions": 10,
+            "unanswerable": 0
+          },
+          "Crédit Agricole S.A.": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.2222222222222222,
+              "hit@1": 0.0,
+              "hit@10": 0.0,
+              "hit@3": 0.0,
+              "hit@5": 0.0,
+              "mrr@10": 0.0,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.0,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.0
+            },
+            "questions": 10,
+            "unanswerable": 1
+          },
+          "Société Générale": {
+            "answerable": 9,
+            "metrics": {
+              "document_accuracy@1": 0.7777777777777778,
+              "hit@1": 0.1111111111111111,
+              "hit@10": 0.6666666666666666,
+              "hit@3": 0.5555555555555556,
+              "hit@5": 0.5555555555555556,
+              "mrr@10": 0.2916666666666667,
+              "page_recall@1": 0.1111111111111111,
+              "page_recall@10": 0.6666666666666666,
+              "page_recall@3": 0.5555555555555556,
+              "page_recall@5": 0.5555555555555556
+            },
+            "questions": 10,
+            "unanswerable": 1
+          }
+        },
+        "language": {
+          "en": {
+            "answerable": 6,
+            "metrics": {
+              "document_accuracy@1": 0.6666666666666666,
+              "hit@1": 0.16666666666666666,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.16666666666666666,
+              "hit@5": 0.3333333333333333,
+              "mrr@10": 0.20833333333333334,
+              "page_recall@1": 0.16666666666666666,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.16666666666666666,
+              "page_recall@5": 0.3333333333333333
+            },
+            "questions": 8,
+            "unanswerable": 2
+          },
+          "fr": {
+            "answerable": 22,
+            "metrics": {
+              "document_accuracy@1": 0.36363636363636365,
+              "hit@1": 0.09090909090909091,
+              "hit@10": 0.3181818181818182,
+              "hit@3": 0.2727272727272727,
+              "hit@5": 0.2727272727272727,
+              "mrr@10": 0.16477272727272727,
+              "page_recall@1": 0.09090909090909091,
+              "page_recall@10": 0.3181818181818182,
+              "page_recall@3": 0.2727272727272727,
+              "page_recall@5": 0.2727272727272727
+            },
+            "questions": 22,
+            "unanswerable": 0
+          }
+        },
+        "overall": {
+          "answerable": 28,
+          "metrics": {
+            "document_accuracy@1": 0.42857142857142855,
+            "hit@1": 0.10714285714285714,
+            "hit@10": 0.32142857142857145,
+            "hit@3": 0.25,
+            "hit@5": 0.2857142857142857,
+            "mrr@10": 0.17410714285714285,
+            "page_recall@1": 0.10714285714285714,
+            "page_recall@10": 0.32142857142857145,
+            "page_recall@3": 0.25,
+            "page_recall@5": 0.2857142857142857
+          },
+          "questions": 30,
+          "unanswerable": 2
+        },
+        "relevance": {
+          "multi_page": {
+            "answerable": 1,
+            "metrics": {
+              "document_accuracy@1": 1.0,
+              "hit@1": 0.0,
+              "hit@10": 0.0,
+              "hit@3": 0.0,
+              "hit@5": 0.0,
+              "mrr@10": 0.0,
+              "page_recall@1": 0.0,
+              "page_recall@10": 0.0,
+              "page_recall@3": 0.0,
+              "page_recall@5": 0.0
+            },
+            "questions": 1,
+            "unanswerable": 0
+          },
+          "single_page": {
+            "answerable": 27,
+            "metrics": {
+              "document_accuracy@1": 0.4074074074074074,
+              "hit@1": 0.1111111111111111,
+              "hit@10": 0.3333333333333333,
+              "hit@3": 0.25925925925925924,
+              "hit@5": 0.2962962962962963,
+              "mrr@10": 0.18055555555555555,
+              "page_recall@1": 0.1111111111111111,
+              "page_recall@10": 0.3333333333333333,
+              "page_recall@3": 0.25925925925925924,
+              "page_recall@5": 0.2962962962962963
+            },
+            "questions": 27,
+            "unanswerable": 0
+          }
+        }
+      },
+      "runtime_seconds": 18.04124759999104,
+      "unanswerable_policy": "Private retrieval outputs only; no correctness or refusal score.",
+      "unanswerable_question_ids": [
+        "finrag_v1_casa_15",
+        "finrag_v1_sg_15"
+      ]
+    }
+  ],
+  "limitations": [
+    "Assisted annotations retain original statuses.",
+    "No answer-generation or refusal-quality assessment.",
+    "Prototype MPNet results are historical external references, not equivalent runs."
+  ],
+  "phase": "2A",
+  "selection": {
+    "evaluation_split": "dev",
+    "selected_configuration": "B",
+    "selected_metrics": {
+      "document_accuracy@1": 0.42857142857142855,
+      "hit@1": 0.03571428571428571,
+      "hit@10": 0.35714285714285715,
+      "hit@3": 0.25,
+      "hit@5": 0.32142857142857145,
+      "mrr@10": 0.1443877551020408,
+      "page_recall@1": 0.03571428571428571,
+      "page_recall@10": 0.35714285714285715,
+      "page_recall@3": 0.25,
+      "page_recall@5": 0.32142857142857145
+    },
+    "selection_priority": [
+      "highest_answerable_hit@5",
+      "highest_mrr@10",
+      "highest_hit@1",
+      "fewest_chunks",
+      "smallest_overlap"
+    ]
+  },
+  "split": "dev",
+  "test_metrics_generated": false,
+  "test_policy": "Previously reported by prototype; frozen and excluded from Phase 2A."
+}
